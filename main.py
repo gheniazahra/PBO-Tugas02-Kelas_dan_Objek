@@ -12,7 +12,7 @@ member1 = Member("Ghenia", "M-1001")
 member2 = Member("Zahra", "M-1002")
 
 # Cek status awal buku dan member
-print(f"\n---INFO STATUS BUKU DAN ANGGOTA---")
+print(f"\n---INFO STATUS BUKU DAN RIWAYAT ANGGOTA---")
 print(f"Status Buku '{buku1.title}'= {buku1.is_borrowed}")
 print(f"Status Buku '{buku2.title}'= {buku2.is_borrowed}")
 
@@ -32,7 +32,7 @@ transaksi_01.borrow_book(buku1, staff1)
 transaksi_02.borrow_book(buku2, staff2)
 
 # Cek status buku setelah dipinjam
-print(f"\n---INFO STATUS BUKU DAN ANGGOTA SETELAH PEMINJAMAN---")
+print(f"\n---INFO STATUS BUKU DAN RIWAYAT ANGGOTA SETELAH PEMINJAMAN---")
 print(f"Status Buku '{buku1.title}'= {buku1.is_borrowed}")
 print(f"Status Buku '{buku2.title}'= {buku2.is_borrowed}")
 
@@ -48,7 +48,7 @@ transaksi_01.return_book(buku1, staff1)
 transaksi_02.return_book(buku2, staff2)
 
 # Cek status setelah dikembalikan
-print(f"\n---INFO STATUS BUKU DAN ANGGOTA SETELAH PENGEMBALIAN---")
+print(f"\n---INFO STATUS BUKU DAN RIWAYAT ANGGOTA SETELAH PENGEMBALIAN---")
 print(f"Status Buku '{buku1.title}'= {buku1.is_borrowed}")
 print(f"Status Buku '{buku2.title}'= {buku2.is_borrowed}")
 
